@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderCell" rowHeight="238" id="KGk-i7-Jjw" customClass="HeaderTableViewCell" customModule="WeatherDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="558" height="238"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="558" height="237"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="29l-nG-drj">
+                        <rect key="frame" x="0.0" y="0.0" width="558" height="237.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6Y-pc-T1v">
+                                <rect key="frame" x="209.5" y="0.0" width="139" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Situation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAr-dW-uhx">
+                                <rect key="frame" x="211" y="61" width="136.5" height="34.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZa-3R-Fa0">
+                                <rect key="frame" x="224" y="95.5" width="110.5" height="142"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="29l-nG-drj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="9zC-VW-FLh"/>
+                    <constraint firstItem="29l-nG-drj" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="Huu-Nf-NMv"/>
+                    <constraint firstItem="29l-nG-drj" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="ekx-un-F2y"/>
+                    <constraint firstItem="29l-nG-drj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ryb-5n-Oz8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labelCity" destination="J6Y-pc-T1v" id="SnH-iW-e9v"/>
+                <outlet property="labelTemperature" destination="tZa-3R-Fa0" id="U2y-Kg-iaF"/>
+                <outlet property="labelWeatherSituation" destination="vAr-dW-uhx" id="Ngq-kd-Gv5"/>
+            </connections>
+            <point key="canvasLocation" x="153" y="151"/>
+        </tableViewCell>
+    </objects>
+</document>

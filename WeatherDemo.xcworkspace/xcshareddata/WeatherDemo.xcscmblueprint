@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D82F445570E4B511F6EED0193873B9BE562867C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A095CED5A3CE32ADA1F2483C88EB41A979C9A3AA" : 9223372036854775807,
+    "D82F445570E4B511F6EED0193873B9BE562867C7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "019691AB-5ED1-4397-9148-7648C343E69F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A095CED5A3CE32ADA1F2483C88EB41A979C9A3AA" : "WeatherDemo\/WeatherDemo\/",
+    "D82F445570E4B511F6EED0193873B9BE562867C7" : "WeatherDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WeatherDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WeatherDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ScarletSmallRed\/WeatherDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A095CED5A3CE32ADA1F2483C88EB41A979C9A3AA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ScarletSmallRed\/WeatherDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D82F445570E4B511F6EED0193873B9BE562867C7"
+    }
+  ]
+}
